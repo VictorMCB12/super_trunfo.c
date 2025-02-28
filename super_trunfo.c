@@ -22,50 +22,48 @@ int main() {
     // Entrada de dados da primeira carta
     printf("Carta N1 \n");
     printf("Estado: \n");
-   
     scanf(" %c", &estado1);
+    
     printf("Codigo da Cidade: \n");
-   
     scanf("%s", codigo1);
+    
     printf("Nome da cidade: \n");
-    
     scanf("%s", cidade1);
+    
     printf("Numero de habitantes: \n");
-    
     scanf("%d", &populacao1);
+    
     printf("Area da cidade (km²): \n");
-   
     scanf("%f", &area1);
+    
     printf("Pib da cidade (em bilhoes): \n");
-    
     scanf("%f", &pib1);
-    printf("Numero de pontos turisticos: \n");
     
+    printf("Numero de pontos turisticos: \n");
     scanf("%d", &pontosTuristicos1 );
     printf("Carta 1 cadastrada! \n\n");
         
     //Entrada de dados da segunda carta
     printf("Carta N2 \n");
     printf("Estado: \n");
-    
     scanf(" %c", &estado2);
+    
     printf("Codigo da Cidade: \n");
-    
     scanf("%s", codigo2);
+    
     printf("Nome da cidade: \n");
-    
     scanf("%s", cidade2);
+    
     printf("Numero de habitantes: \n");
-    
     scanf("%d", &populacao2);
+    
     printf("Area da cidade (km²): \n");
-    
     scanf("%f", &area2);
+    
     printf("Pib da cidade (em bilhoes): \n");
-    
     scanf("%f", &pib2);
-    printf("Numero de pontos turisticos: \n");
     
+    printf("Numero de pontos turisticos: \n");
     scanf("%d", &pontosTuristicos2);
     printf("Carta 2 cadastrada! \n\n");
 
