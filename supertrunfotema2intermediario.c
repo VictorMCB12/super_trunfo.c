@@ -18,7 +18,7 @@ int main(){
 
     printf("Carta N1 \n");
 
-    printf("Digite o nome do pais: \n");
+    printf("Digite o nome do País: \n");
     scanf(" %s", pais1);
 
     printf("Digite o numero de habitantes: \n");
@@ -72,7 +72,7 @@ int main(){
    printf("Densidade demografica: %.2f hab/km²\n", densidadeDemo1);
 
    printf("\nCarta 2:\n");
-   printf("Nome da Cidade: %s\n", pais2);
+   printf("Nome do País: %s\n", pais2);
    printf("População: %d\n", populacao2);
    printf("Area: %.2f km²\n", area2);
    printf("Pib: %.2f\n", pib2);
