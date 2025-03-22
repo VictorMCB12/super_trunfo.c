@@ -1,1 +1,1 @@
-
+Nao ha muitas diferencas do primeiro menu, somente foi adicionado mais um e agora existe uma forma de comparar 2 atributos dessas cartas por exemplo, comparar pib e populacao, mas caso seja escolhido 2 atributos iguais o programa da um break e para instantaneamente, tambem no final ha uma soma dos atributos, e ao final exibira quem ganhou e quem perdeu respectivamente.
