@@ -41,7 +41,7 @@ int main(){
     //Entrada de dados da segunda carta
 
      printf("Carta N2 \n");
-     printf("Digite o nome do pais: \n");
+     printf("Digite o nome do País: \n");
      scanf(" %s", pais2);
  
      printf("Digite o numero de habitantes: \n");
@@ -64,7 +64,7 @@ int main(){
    //Exibicao das cartas
 
    printf("\nCarta 1:\n");
-   printf("Nome da Cidade: %s\n", pais1);
+   printf("Nome do País: %s\n", pais1);
    printf("População: %d\n", populacao1);
    printf("Area: %.2f km²\n", area1);
    printf("Pib: %.2f\n", pib1);
@@ -93,7 +93,7 @@ int main(){
 
   switch (opcao) {
   case 1:
-    printf("Atribudo Comparado: Populacao\n");
+    printf("Atributo Comparado: Populacao\n");
     printf("%s: %d habitantes\n", pais1, populacao1);
     printf("%s: %d habitantes\n", pais2, populacao2);
     if (populacao1 > populacao2)    
@@ -105,7 +105,7 @@ int main(){
     break;
    
     case 2:
-    printf("Atribudo Comparado: Area\n");
+    printf("Atributo Comparado: Area\n");
     printf("%s: %.2f km²\n", pais1, area1);
     printf("%s: %.2f km²\n", pais2, area2);
     if (area1 > area2)   
@@ -117,7 +117,7 @@ int main(){
     break;
     
     case 3:
-    printf("Atribudo Comparado: Pib\n");
+    printf("Atributo Comparado: Pib\n");
     printf("%s: %.2f $\n", pais1, pib1);
     printf("%s: %.2f $\n", pais2, pib2);    
     if (pib1 > pib2)   
@@ -129,7 +129,7 @@ int main(){
     break;
     
     case 4:
-    printf("Atribudo Comparado: Pontos Turisticos\n");
+    printf("Atributo Comparado: Pontos Turisticos\n");
     printf("%s: %d pontos turisticos\n", pais1, pontos1);
     printf("%s: %d pontos turisticos\n", pais2, pontos2);
     if (pontos1 > pontos2)   
